@@ -21,3 +21,8 @@ while read -r ip name; do
         verifica_host "$name" "$ip" "$DNS"
     fi
 done < /etc/hosts
+
+
+
+
+echo Ben
